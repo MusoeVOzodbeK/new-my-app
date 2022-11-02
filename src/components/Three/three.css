@@ -1,0 +1,22 @@
+.three{
+	width: 100%;
+	margin: 0;
+	display: flex;
+}
+.threeontainer{
+	/* display: flex;
+	flex-direction: column; */
+	margin: 0;
+}
+.threeontainer .row{
+	display: flex;
+	width: 25%;
+	margin: 0;
+	padding: 0;
+}
+.threeontainer .row img{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	object-fit: cover;
+}

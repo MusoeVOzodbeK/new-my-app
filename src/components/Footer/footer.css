@@ -1,0 +1,24 @@
+.footer{
+	height: 82px;
+	margin: 0;
+	padding: 0;
+	background-color: #404149;
+	display: flex;
+	justify-content: center;
+}
+.footerContainer{
+	padding: 0 10px;
+	box-sizing: border-box;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #FFFFFF;
+	max-width: 1024px;
+}
+.footerContainer > div{
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 21.79px;
+	font-family: 'Open Sans', sans-serif;
+}

@@ -1,0 +1,100 @@
+.four {
+  width: 100%;
+  display: flex;
+  margin: 0;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.fourContainer {
+  max-width: 1024px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.fourContainer h2 {
+  margin: 15px 0;
+  text-align: center;
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 53px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.fourTitle {
+  padding: 40px;
+  box-sizing: border-box;
+}
+.fourTitle article {
+  margin: 20px 0;
+}
+.fourTitle article button {
+  background-color: transparent;
+  border: none;
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 36px;
+
+  /* Accent */
+
+  color: #00a360;
+}
+.fourTitle article button{
+  display: flex;
+}
+.fourTitle article button .icons {
+  margin-right: 5px;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.fourContainers {
+  width: 100%;
+  display: flex;
+  background-color: #404149;
+  justify-content: center;
+}
+.cotainer{
+	width: 100%;
+	max-width: 1024px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+.fourContainers h2 {
+  text-align: center;
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  text-transform: uppercase;
+
+  /* White */
+
+  color: #ffffff;
+}
+.fourContainers .fourImage{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.fourContainers .fourImage img{
+	margin: 0 10px;
+	width: 120px;
+	object-fit: cover;
+}
+@media only screen and (max-width : 580px){
+  .fourImage{
+    flex-direction: column;
+  }
+  .fourImage .image{
+    margin: 40px 0;
+  }
+}

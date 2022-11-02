@@ -1,0 +1,152 @@
+.five {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.fiveContainer {
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  flex-direction: column;
+}
+.fiveContainer h2 {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 31px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #000000;
+}
+
+.fiveList {
+  display: flex;
+}
+.fiveItem {
+  display: flex;
+  padding: 10px;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.fiveItem article {
+  padding: 10px;
+  box-sizing: border-box;
+  background: #f7f7f7;
+  margin: 0 10px;
+}
+.fiveIcons {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 40px;
+  text-transform: uppercase;
+
+  /* Accent */
+
+  color: #00a360;
+}
+.ficceParag {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  /* or 150% */
+
+  /* gray */
+
+  color: #999999;
+}
+
+.fiveHfour {
+  padding: 10px;
+  box-sizing: border-box;
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #000000;
+}
+.fiveHfour mark{
+	color: #00a360;
+	background-color: transparent;
+}
+
+.fiveContainers{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	background-color: #00a360;
+}
+.fiveContainers .container{
+	display: flex;
+	width: 100%;
+	max-width: 1024px;
+	justify-content: space-between;
+	padding: 10px;
+}
+.fiveContainers .container .left h1{
+	font-family: 'Oswald';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 25px;
+letter-spacing: 0.02em;
+margin:10px 0;
+color: #FFFFFF;
+}
+.fiveContainers .container .left h4{
+	font-family: 'Oswald';
+font-style: normal;
+font-weight: 500;
+margin:10px 0;
+font-size: 19px;
+line-height: 18px;
+letter-spacing: 0.02em;
+
+color: #FFFFFF;
+}
+.fiveButton{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.fiveButton button{
+	padding: 5px 10px 5px 3px;
+	font-weight: 600;
+	box-shadow: 0 0 3px #025633;
+	color: #00a360;
+	background: #FFFFFF;
+	border: none;
+	border-radius: 3px;
+  display: flex;
+  align-items: center;
+}
+.fiveIcon{
+  font-size: 20px;
+  margin: 0 5px;
+}
+
+@media only screen and (max-width : 580px){
+  .fiveList{
+    display: block;
+  }
+  .fiveContainers .container{
+    flex-direction: column;
+    align-items: center;
+  }
+  .fiveContainers .container .left h1{
+    text-align: center;
+  }
+  .fiveContainers .container .left h4{
+    text-align: center;
+  }
+}

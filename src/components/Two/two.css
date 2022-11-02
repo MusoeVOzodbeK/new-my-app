@@ -1,0 +1,76 @@
+.two {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.twoContainer {
+  width: 100%;
+  max-width: 1024px;
+}
+.twoContainer h1 {
+  text-align: center;
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 53px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.twoContainer .twoContainers {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-direction: column;
+}
+.twoContainer .twoContainers .rowOne,
+.twoContainer .twoContainers .rowTwo {
+  display: flex;
+  /* width: 30%; */
+  justify-content: space-between;
+}
+.twoContainer .twoContainers .rowOne article,
+.twoContainer .twoContainers .rowTwo article {
+  width: 350px;
+  height: 250px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f7f7;
+}
+.twoContainer .twoContainers .rowOne img,
+.twoContainer .twoContainers .rowTwo img {
+  width: 40px;
+  filter: invert(34%) sepia(89%) saturate(1841%) hue-rotate(136deg)
+    brightness(95%) contrast(104%);
+  object-fit: cover;
+}
+.twoContainer .twoContainers .rowOne p,
+.twoContainer .twoContainers .rowTwo p {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 31px;
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  color: #000000;
+}
+@media only screen and (max-width: 580px) {
+  .twoContainers {
+    flex-direction: column;
+  }
+  .twoContainers .rowOne {
+    flex-direction: column;
+    align-items: center;
+  }
+  .twoContainers .rowTwo {
+    flex-direction: column;
+    align-items: center;
+  }
+}

@@ -1,0 +1,94 @@
+.main {
+  width: 100%;
+  background: url("../../assets/Rectangle.png");
+  padding: 0;
+  margin: 0;
+  z-index: 1;
+  height: 25em;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  position: relative;
+}
+.mainContainer {
+  max-width: 1024px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-transform: uppercase;
+  color: #fff;
+  justify-content: center;
+}
+.mainContainer h1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 95px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  font-family: "Oswald", sans-serif;
+}
+.mainContainer p {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.prayerTime{
+  position: absolute;
+  bottom: -30%;
+	width: 100%;
+  margin-top: 3rem;
+	display: flex;
+	justify-content: center;
+}
+.prayerTimes{
+	border-radius: 8px;
+	box-shadow: 0 3px  10px  black;
+	max-width: 1024px;
+	width: 100%;
+	padding: 20px;
+	box-sizing: border-box;
+	display: flex;
+	background-color: #00a360;
+}
+.prayerTimes>article{
+	width: 70px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.prayerTimes article>img{
+	margin: 0;
+	width: 100%;
+  margin: 0;
+	object-fit: cover;
+}
+.prayerTimes article>h1 {
+  color: #ffffff;
+  margin: 0;
+}
+.prayerTimes article>h3{
+	color: #ffffff;
+}
+
+@media only screen and (max-width: 580px){
+  .mainContainer h1{
+    font-size: 25px;
+    line-height: 25px;
+    margin: 0;
+  }
+  .prayerTimes{
+    /* flex-direction: column; */
+    align-items: center;
+    bottom: -40px;
+  }
+}

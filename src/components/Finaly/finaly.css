@@ -1,0 +1,80 @@
+.finaly {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+  }
+  .finalyContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	max-width: 1024px;
+  }
+  
+  .finalyContainer h2 {
+	font-family: "Oswald";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 25px;
+	line-height: 25px;
+	text-transform: uppercase;
+  
+	color: #000000;
+  }
+  .finalyContainer .container {
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+  }
+  .finalyItem {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  }
+  .finalyIcon {
+	color: #00a360;
+	font-size: 30px;
+  }
+  .finalyParag {
+	font-family: "Oswald";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 12px;
+	margin: 10px 0;
+	text-align: center;
+  
+	/* gray */
+  
+	color: #999999;
+  }
+  .finalyHthree {
+	display: flex;
+	justify-content: center;
+	font-family: "Oswald";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 15px;
+	margin: 10px 0;
+	text-align: center;
+  
+	color: #000000;
+  }
+  .finalyEmail{
+	  color: #00a360;
+  }
+  
+  @media only screen and (max-width : 580px){
+	.finalyContainer{
+	  flex-direction: column;
+	}
+	.finalyContainer .container{
+	  flex-direction: column;
+	}
+	.finalyContainer .container article{
+	  margin: 10px 0;
+	}
+  }
